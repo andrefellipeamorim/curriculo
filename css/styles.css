@@ -9,18 +9,18 @@ p{
 /*IDs*/
 
 #sobre{
-	background: linear-gradient(to right, #302244, #563d7c, #302244); 
+	background: linear-gradient(to right, #3b2a55, #533b78, #3b2a55); 
 	color: white; 
-  opacity: 0.8; 
+  opacity: ; 
 }
 
 #formacao{
-	background: linear-gradient(to right, #ffff66, #ffffb3, #ffff66); 
+	background: linear-gradient(to right, #ffff80, #ffffb3, #ffff80); 
 	color: #000000;
 }
 
 #skills{
-	background: linear-gradient(to right, #1cb093, #6EE8D0, #1cb093); 
+	background: linear-gradient(to right, #1fc7a5, #6EE8D0, #1fc7a5); 
 	color: black;
 }
 
@@ -386,6 +386,10 @@ p{
   	margin-right: 20px;
   	width: 80px;
 	}
+
+  .shadowtext{
+  text-shadow: 1px 1px 1px black;  
+}
 
 
   #sobre{
