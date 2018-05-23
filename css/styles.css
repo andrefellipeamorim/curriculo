@@ -5,28 +5,29 @@ body{
 /*IDs*/
 
 #sobre{
-	background: #563d7c; 
+	background: linear-gradient(to right, #302244, #563d7c, #302244); 
 	color: white;
+  opacity: 0.8;
 }
 
 #formacao{
-	background: #FEFF86; 
+	background: linear-gradient(to right, #ffff66, #ffffb3, #ffff66); 
 	color: #000000;
 }
 
 #skills{
-	background: #6EE8D0; 
+	background: linear-gradient(to right, #1cb093, #6EE8D0, #1cb093); 
 	color: black;
 }
 
 #jobs{
-	background: #E89A6E; 
+	background: linear-gradient(to right, #e07638, #E89A6E, #e07638); 
 	color: #000000;
 }
 
 #contato{
-	background: #8B52FF; 
-	color: white;
+	background: linear-gradient(to right, #4db8ff, #99d6ff, #4db8ff); 
+	color: #000000;
 }
 
 #footer{
