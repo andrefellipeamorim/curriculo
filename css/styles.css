@@ -2,12 +2,16 @@ body{
   background: #563d7c;
 }
 
+p{
+  opacity: 0.9; 
+}
+
 /*IDs*/
 
 #sobre{
 	background: linear-gradient(to right, #302244, #563d7c, #302244); 
-	color: white;
-  opacity: 0.8;
+	color: white; 
+  opacity: 0.8; 
 }
 
 #formacao{
@@ -31,16 +35,19 @@ body{
 }
 
 #footer{
-	background: black; 
-	color: white;
+	background: white; 
+	color: black;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	text-align: center;
 	font-size: 0.7em;
-  opacity: 0.6;
 }
 
 /*Classes*/
+
+.shadowtext{
+  text-shadow: 2px 2px 1px black;  
+}
 
 .aavatar{
 	text-align: right;
@@ -49,6 +56,10 @@ body{
 
 .logocolor{
 	color: grey;
+}
+
+.ficons{
+  opacity: 0.9;
 }
 
 /*Customize navbar*/
