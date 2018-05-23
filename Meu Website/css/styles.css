@@ -1,0 +1,388 @@
+body{
+  background: #563d7c;
+}
+
+/*IDs*/
+
+#sobre{
+	background: #563d7c; 
+	color: white;
+}
+
+#formacao{
+	background: #FEFF86; 
+	color: #000000;
+}
+
+#skills{
+	background: #6EE8D0; 
+	color: black;
+}
+
+#jobs{
+	background: #E89A6E; 
+	color: #000000;
+}
+
+#contato{
+	background: #8B52FF; 
+	color: white;
+}
+
+#footer{
+	background: #FBFCFC; 
+	color: #393939;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+/*Classes*/
+
+.aavatar{
+	text-align: right;
+	padding-top: 80px;
+}
+
+.logocolor{
+	color: grey;
+}
+
+/*Customize navbar*/
+
+.navbar-custom {
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand {
+  color: white;
+  font-size: 30px;
+}
+
+.navbar-custom .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-custom .navbar-brand:visited {
+  color: white;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: grey;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: white;
+  text-shadow: 0px 0px 5px white;
+}
+
+/*Animações*/
+
+@-webkit-keyframes movimento-lr {
+   from {
+      left: -500px;
+      opacity: 0;
+   }
+   
+   to {
+      left: 0px;
+      opacity: 1;
+   }
+}
+
+#animlr {
+   -webkit-animation-name: movimento-lr;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-iteration-count: 1;
+   position: relative; 
+}
+
+@-webkit-keyframes movimento-rl {
+   from {
+      right: -500px;
+      opacity: 0;
+   }
+   
+   to {
+      right: 0px;
+      opacity: 1;
+   }
+}
+
+#animrl {
+   -webkit-animation-name: movimento-rl;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-iteration-count: 1;
+   position: relative; 
+}
+
+@-webkit-keyframes opacidade {
+   from {
+      opacity: 0;
+   }
+   
+   to {
+      opacity: 1;
+   }
+}
+
+#opacidade {
+   -webkit-animation-name: opacidade;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-iteration-count: 1;
+   position: relative; 
+}
+
+/*Telas grandes*/
+@media only screen and (min-width : 1380px)
+{ p{
+    font-size: 1.4em;    
+  }
+  h1{
+    font-size: 3.3em;   
+  }
+  h2{
+    font-size: 2.3em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+
+  .ficons{
+    height: 160px;
+    margin-bottom: 50px;
+    }
+
+  .avatar{
+	width: 480px;	
+	}
+
+  .sicons{
+	  margin-top: 15px;
+	  margin-bottom: 30px;
+	  margin-left: 40px;
+	  margin-right: 40px;
+	  width: 140px;
+	}
+
+
+  #sobre{
+    padding-top: 60px;
+    padding-bottom: 140px;
+    }
+  #formacao{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    }
+  #skills{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    }
+}
+
+/*telas mais comuns*/
+@media only screen and (min-width : 1008px) and (max-width : 1379px)
+{ p{
+    font-size: 1.1em;    
+  }
+  h1{
+    font-size: 3em;   
+  }
+  h2{
+    font-size: 2em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+
+  .ficons{
+    height: 80px;
+    margin-bottom: 30px;
+    }
+
+  .avatar{
+	width: 400px;	
+	}
+
+  .sicons{
+  	margin-top: 10px;
+  	margin-bottom: 30px;
+  	margin-left: 20px;
+  	margin-right: 20px;
+  	width: 100px;
+	}
+
+
+  #sobre{
+    padding-top: 40px;
+    padding-bottom: 120px;
+    }
+  #formacao{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    }
+  #skills{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    }
+}
+
+/*tablet size*/
+@media only screen and (min-width : 770px) and (max-width : 1007px)
+{ p{
+    font-size: 0.9em;    
+  }
+  h1{
+    font-size: 2.5em;   
+  }
+  h2{
+    font-size: 1.5em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+
+  .ficons{
+    height: 60px;
+    margin-bottom: 30px;
+    }
+
+  .avatar{
+	width: 400px;	
+	}
+
+  .sicons{
+  	margin-top: 15px;
+  	margin-bottom: 30px;
+  	margin-left: 20px;
+  	margin-right: 25px;
+  	width: 80px;
+	}
+
+
+  #sobre{
+    padding-top: 40px;
+    padding-bottom: 120px;
+    }
+  #formacao{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    }
+  #skills{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    }
+}
+
+/*small tablet size*/
+@media only screen and (min-width : 641px) and (max-width : 769px)
+{ p{
+    font-size: 0.9em;    
+  }
+  h1{
+    font-size: 2.2em;   
+  }
+  h2{
+    font-size: 1.2em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+
+  .aavatar{
+  	padding-top: 20px;
+  }
+
+  .ficons{
+    height: 60px;
+    margin-bottom: 30px;
+    }
+
+  .avatar{
+	width: 200px;	
+	}
+
+  .sicons{
+  	margin-top: 15px;
+  	margin-bottom: 15px;
+  	margin-left: 15px;
+  	margin-right: 20px;
+  	width: 80px;
+	}
+
+
+  #sobre{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    }
+  #formacao{
+    padding-top: 110px;
+    padding-bottom: 100px;
+    }
+  #skills{
+    padding-top: 110px;
+    padding-bottom: 100px;
+    }
+}
+
+/*smart size*/
+@media only screen and (max-width : 640px)
+{ p{
+    font-size: 0.9em;    
+  }
+  h1{
+    font-size: 2.2em;   
+  }
+  h2{
+    font-size: 1.2em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+
+  .navbar-toggler-icon{
+  	width: 20px;
+  }
+
+  .navbar-custom .navbar-brand {
+  	color: white;
+  	font-size: 20px;
+	}
+
+  .aavatar{
+  	padding-top: 20px;
+  }
+
+  .ficons{
+    height: 60px;
+    margin-bottom: 30px;
+    }
+
+  .avatar{
+	width: 200px;	
+	}
+
+  .sicons{
+  	margin-top: 15px;
+  	margin-bottom: 15px;
+  	margin-left: 15px;
+  	margin-right: 20px;
+  	width: 80px;
+	}
+
+
+  #sobre{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    }
+  #formacao{
+    padding-top: 110px;
+    padding-bottom: 100px;
+    }
+  #skills{
+    padding-top: 110px;
+    padding-bottom: 100px;
+    }
+}
