@@ -35,7 +35,7 @@ h3{
 
 #jobs{
 	background: linear-gradient(to right, #e07638, #E89A6E, #e07638); 
-	color: #000000;
+	color: #000000;  
 }
 
 #contato{
@@ -53,6 +53,11 @@ h3{
 }
 
 /*Classes*/
+
+.jobscard{
+  width: 200px;
+  margin-top: 10px;    
+}
 
 .shadowtext{
   text-shadow: 2px 2px 1px black;  
@@ -196,6 +201,11 @@ h3{
     font-size: 1.7em;
   }
 
+  .card{
+    margin-left: 8px;  
+    margin-bottom: 10px;
+  }
+
   .ficons{
     height: 160px;
     margin-bottom: 50px;
@@ -228,7 +238,7 @@ h3{
   }
   #jobs{
     padding-top: 160px;
-    padding-bottom: 160px;
+    padding-bottom: 160px;    
   }
   #contato{
     padding-top: 145px;
@@ -251,6 +261,11 @@ h3{
   }
   h3{
     font-size: 1.4;
+  }
+
+  .card{
+    margin-left: 8px;  
+    margin-bottom: 10px;
   }
 
   .ficons{
@@ -311,6 +326,11 @@ h3{
     font-size: 1.2em;
   }
 
+  .card{
+    margin-left: 40px;  
+    margin-bottom: 20px;
+  }
+
   .ficons{
     height: 60px;
     margin-bottom: 30px;
@@ -366,6 +386,10 @@ h3{
   }
   h3{
     font-size: 1.2em;
+  }
+
+  .card{
+    margin-bottom: 20px;
   }
 
   .aavatar{
@@ -428,6 +452,11 @@ h3{
   }
   h3{
     font-size: 1.2em;
+  }
+
+  .card{
+    margin-bottom: 20px;
+    margin-left: 5px;     
   }
 
   .navbar-toggler-icon{
