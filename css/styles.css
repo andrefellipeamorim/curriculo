@@ -40,7 +40,7 @@ p{
 	padding-bottom: 5px;
 	padding-top: 5px;
 	text-align: center;
-	font-size: 0.7em;
+	font-size: 1em;
 }
 
 /*Classes*/
@@ -166,11 +166,14 @@ p{
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
   }
+  h3{
+    font-size: 1.7em;
+  }
 
   .ficons{
     height: 160px;
     margin-bottom: 50px;
-    }
+  }
 
   .avatar{
 	width: 480px;	
@@ -181,22 +184,30 @@ p{
 	  margin-bottom: 30px;
 	  margin-left: 40px;
 	  margin-right: 40px;
-	  width: 140px;
+	  width: 130px;
 	}
 
 
   #sobre{
     padding-top: 60px;
     padding-bottom: 140px;
-    }
+  }
   #formacao{
     padding-top: 160px;
     padding-bottom: 160px;
-    }
+  }
   #skills{
     padding-top: 160px;
     padding-bottom: 160px;
-    }
+  }
+  #jobs{
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+  #contato{
+    padding-top: 145px;
+    padding-bottom: 220px;
+  }
 }
 
 /*telas mais comuns*/
@@ -212,11 +223,14 @@ p{
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
   }
+  h3{
+    font-size: 1.4;
+  }
 
   .ficons{
     height: 80px;
     margin-bottom: 30px;
-    }
+  }
 
   .avatar{
 	width: 400px;	
@@ -234,21 +248,30 @@ p{
   #sobre{
     padding-top: 40px;
     padding-bottom: 120px;
-    }
+  }
   #formacao{
     padding-top: 130px;
     padding-bottom: 120px;
-    }
+  }
   #skills{
     padding-top: 130px;
     padding-bottom: 120px;
-    }
+  }
+  #jobs{
+    padding-top: 130px;
+    padding-bottom: 120px;
+  }
+  #contato{
+    padding-top: 130px;
+    padding-bottom: 120px;
+  }
+
 }
 
 /*tablet size*/
 @media only screen and (min-width : 770px) and (max-width : 1007px)
 { p{
-    font-size: 0.9em;    
+    font-size: 1em;    
   }
   h1{
     font-size: 2.5em;   
@@ -258,11 +281,14 @@ p{
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
   }
+  h3{
+    font-size: 1.2em;
+  }
 
   .ficons{
     height: 60px;
     margin-bottom: 30px;
-    }
+  }
 
   .avatar{
 	width: 400px;	
@@ -280,21 +306,29 @@ p{
   #sobre{
     padding-top: 40px;
     padding-bottom: 120px;
-    }
+  }
   #formacao{
     padding-top: 130px;
     padding-bottom: 120px;
-    }
+  }
   #skills{
     padding-top: 130px;
     padding-bottom: 120px;
-    }
+  }
+  #jobs{
+    padding-top: 130px;
+    padding-bottom: 120px;
+  }
+  #contato{
+    padding-top: 130px;
+    padding-bottom: 120px;
+  }
 }
 
 /*small tablet size*/
 @media only screen and (min-width : 641px) and (max-width : 769px)
 { p{
-    font-size: 0.9em;    
+    font-size: 1em;    
   }
   h1{
     font-size: 2.2em;   
@@ -303,6 +337,9 @@ p{
     font-size: 1.2em;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
+  }
+  h3{
+    font-size: 1.2em;
   }
 
   .aavatar{
@@ -313,7 +350,7 @@ p{
     height: 60px;
     margin-top: 40px;
     margin-bottom: 30px;
-    }
+  }
 
   .avatar{
 	width: 200px;	
@@ -331,21 +368,29 @@ p{
   #sobre{
     padding-top: 20px;
     padding-bottom: 100px;
-    }
+  }
   #formacao{
     padding-top: 70px;
     padding-bottom: 100px;
-    }
+  }
   #skills{
     padding-top: 110px;
     padding-bottom: 100px;
-    }
+  }
+  #jobs{
+    padding-top: 110px;
+    padding-bottom: 100px;
+  }
+  #contato{
+    padding-top: 110px;
+    padding-bottom: 100px;
+  }
 }
 
 /*smart size*/
 @media only screen and (max-width : 640px)
 { p{
-    font-size: 0.9em;    
+    font-size: 1em;    
   }
   h1{
     font-size: 2.2em;   
@@ -354,6 +399,9 @@ p{
     font-size: 1.2em;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
+  }
+  h3{
+    font-size: 1.2em;
   }
 
   .navbar-toggler-icon{
@@ -373,7 +421,7 @@ p{
     height: 60px;
     margin-top: 40px;
     margin-bottom: 30px;
-    }
+  }
 
   .avatar{
 	width: 200px;	
@@ -389,19 +437,27 @@ p{
 
   .shadowtext{
   text-shadow: 1px 1px 1px black;  
-}
+  }
 
 
   #sobre{
     padding-top: 20px;
-    padding-bottom: 100px;
-    }
+    padding-bottom: 70px;
+  }
   #formacao{
-    padding-top: 70px;
-    padding-bottom: 100px;
-    }
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
   #skills{
-    padding-top: 110px;
-    padding-bottom: 100px;
-    }
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+  #jobs{
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+  #contato{
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
 }
