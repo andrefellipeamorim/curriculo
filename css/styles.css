@@ -54,6 +54,12 @@ h3{
 
 /*Classes*/
 
+.card {
+  margin: 0 auto;
+  float: none; 
+  margin-bottom: 20px; 
+}
+
 .jobscard{
   width: 200px;
   margin-top: 10px;    
@@ -201,11 +207,6 @@ h3{
     font-size: 1.7em;
   }
 
-  .card{
-    margin-left: 8px;  
-    margin-bottom: 10px;
-  }
-
   .ficons{
     height: 160px;
     margin-bottom: 50px;
@@ -261,11 +262,6 @@ h3{
   }
   h3{
     font-size: 1.4;
-  }
-
-  .card{
-    margin-left: 8px;  
-    margin-bottom: 10px;
   }
 
   .ficons{
@@ -326,11 +322,7 @@ h3{
     font-size: 1.2em;
   }
 
-  .card{
-    margin-left: 40px;  
-    margin-bottom: 20px;
-  }
-
+  
   .ficons{
     height: 60px;
     margin-bottom: 30px;
@@ -386,10 +378,6 @@ h3{
   }
   h3{
     font-size: 1.2em;
-  }
-
-  .card{
-    margin-bottom: 20px;
   }
 
   .aavatar{
@@ -453,11 +441,7 @@ h3{
   h3{
     font-size: 1.2em;
   }
-
-  .card{
-    margin-bottom: 20px;
-    margin-left: 5px;     
-  }
+ 
 
   .navbar-toggler-icon{
   	width: 20px;
