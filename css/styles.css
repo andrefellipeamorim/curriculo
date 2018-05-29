@@ -20,7 +20,6 @@ h3{
 #sobre{
 	background: linear-gradient(to right, #3b2a55, #533b78, #3b2a55); 
 	color: white; 
-  opacity: ; 
 }
 
 #formacao{
@@ -225,25 +224,10 @@ h3{
 	}
 
 
-  #sobre{
-    padding-top: 60px;
-    padding-bottom: 140px;
+  html,body,#sobre{
+    height: 100%;    
+    
   }
-  #formacao{
-    padding-top: 160px;
-    padding-bottom: 160px;
-  }
-  #skills{
-    padding-top: 160px;
-    padding-bottom: 160px;
-  }
-  #jobs{
-    padding-top: 160px;
-    padding-bottom: 160px;    
-  }
-  #contato{
-    padding-top: 145px;
-    padding-bottom: 220px;
   }
 }
 
