@@ -1,21 +1,32 @@
 body{
   background: #563d7c;
-}
-
-p{
-  opacity: 0.9; 
   font-family: Arial, Helvetica, sans-serif;
 }
+html,body,.sections{
+    height: 100%;     
+  }
 
-h1{
-  font-family: Arial, Helvetica, sans-serif;
+h2{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+} 
+
+.sections{
+  display: table;
+  width: 100%;
+  padding-top: 80px; 
+  padding-bottom: 50px;  
 }
 
-h3{
-  font-family: Arial, Helvetica, sans-serif;
+.salign{
+  display: table-cell;
+  vertical-align: middle;
 }
 
-/*IDs*/
+
+
+
+/*IDs Sections*/
 
 #sobre{
 	background: linear-gradient(to right, #3b2a55, #533b78, #3b2a55); 
@@ -52,6 +63,9 @@ h3{
 }
 
 /*Classes*/
+.avatar{
+  margin-top: 50px;
+}
 
 .card {
   margin: 0 auto;
@@ -68,11 +82,6 @@ h3{
   text-shadow: 2px 2px 1px black;  
 }
 
-.aavatar{
-	text-align: right;
-	padding-top: 80px;
-}
-
 .logocolor{
 	color: grey;
 }
@@ -80,6 +89,9 @@ h3{
 .ficons{
   opacity: 0.9;
 }
+
+
+/*Customize navbar*/
 
 .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.1);
@@ -89,15 +101,14 @@ h3{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-/*Customize navbar*/
-
 .navbar-custom {
   background-color: #000000;
   opacity: 0.6;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;  
 }
 
-/* change the brand and text color */
+/* change the brand and nav text color */
+
 .navbar-custom .navbar-brand {
   color: white;
   font-size: 30px;
@@ -111,14 +122,12 @@ h3{
   color: white;
 }
 
-/* change the link color */
 .navbar-custom .navbar-nav .nav-link {
   color: white;
   margin-left: 10px;
   font-size: 20px;
 }
 
-/* change the color of active or hovered links */
 .navbar-custom .navbar-nav .nav-link:hover {
   color: white;
   text-shadow: 0px 0px 10px white;
@@ -146,7 +155,7 @@ h3{
    }
 }
 
-#animlr {
+.animlr {
    -webkit-animation-name: movimento-lr;
    -webkit-animation-duration: 1s;
    -webkit-animation-iteration-count: 1;
@@ -165,7 +174,7 @@ h3{
    }
 }
 
-#animrl {
+.animrl {
    -webkit-animation-name: movimento-rl;
    -webkit-animation-duration: 1s;
    -webkit-animation-iteration-count: 1;
@@ -182,14 +191,17 @@ h3{
    }
 }
 
-#opacidade {
+.opacidade {
    -webkit-animation-name: opacidade;
    -webkit-animation-duration: 1s;
    -webkit-animation-iteration-count: 1;
    position: relative; 
 }
 
+/*Fonts and imagens adjusts*/
+
 /*Telas grandes*/
+
 @media only screen and (min-width : 1380px)
 { p{
     font-size: 1.4em;    
@@ -198,9 +210,7 @@ h3{
     font-size: 3.3em;   
   }
   h2{
-    font-size: 2.3em;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
+    font-size: 2.3em;    
   }
   h3{
     font-size: 1.7em;
@@ -212,7 +222,7 @@ h3{
   }
 
   .avatar{
-	width: 480px;	
+  	width: 480px;	
 	}
 
   .sicons{
@@ -221,14 +231,7 @@ h3{
 	  margin-left: 40px;
 	  margin-right: 40px;
 	  width: 130px;
-	}
-
-
-  html,body,#sobre{
-    height: 100%;    
-    
-  }
-  }
+	}  
 }
 
 /*telas mais comuns*/
@@ -264,29 +267,6 @@ h3{
   	margin-right: 20px;
   	width: 100px;
 	}
-
-
-  #sobre{
-    padding-top: 40px;
-    padding-bottom: 120px;
-  }
-  #formacao{
-    padding-top: 130px;
-    padding-bottom: 120px;
-  }
-  #skills{
-    padding-top: 130px;
-    padding-bottom: 120px;
-  }
-  #jobs{
-    padding-top: 130px;
-    padding-bottom: 120px;
-  }
-  #contato{
-    padding-top: 130px;
-    padding-bottom: 120px;
-  }
-
 }
 
 /*tablet size*/
@@ -323,28 +303,6 @@ h3{
   	margin-right: 25px;
   	width: 80px;
 	}
-
-
-  #sobre{
-    padding-top: 40px;
-    padding-bottom: 120px;
-  }
-  #formacao{
-    padding-top: 130px;
-    padding-bottom: 120px;
-  }
-  #skills{
-    padding-top: 130px;
-    padding-bottom: 120px;
-  }
-  #jobs{
-    padding-top: 130px;
-    padding-bottom: 120px;
-  }
-  #contato{
-    padding-top: 130px;
-    padding-bottom: 120px;
-  }
 }
 
 /*small tablet size*/
@@ -385,28 +343,6 @@ h3{
   	margin-right: 20px;
   	width: 80px;
 	}
-
-
-  #sobre{
-    padding-top: 20px;
-    padding-bottom: 100px;
-  }
-  #formacao{
-    padding-top: 70px;
-    padding-bottom: 100px;
-  }
-  #skills{
-    padding-top: 110px;
-    padding-bottom: 100px;
-  }
-  #jobs{
-    padding-top: 110px;
-    padding-bottom: 100px;
-  }
-  #contato{
-    padding-top: 110px;
-    padding-bottom: 100px;
-  }
 }
 
 /*smart size*/
@@ -460,27 +396,5 @@ h3{
 
   .shadowtext{
   text-shadow: 1px 1px 1px black;  
-  }
-
-
-  #sobre{
-    padding-top: 20px;
-    padding-bottom: 70px;
-  }
-  #formacao{
-    padding-top: 40px;
-    padding-bottom: 70px;
-  }
-  #skills{
-    padding-top: 80px;
-    padding-bottom: 70px;
-  }
-  #jobs{
-    padding-top: 80px;
-    padding-bottom: 70px;
-  }
-  #contato{
-    padding-top: 80px;
-    padding-bottom: 70px;
   }
 }
