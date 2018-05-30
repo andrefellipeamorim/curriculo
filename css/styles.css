@@ -1,21 +1,24 @@
 body{
-  background: #563d7c;
-  font-family: Arial, Helvetica, sans-serif;
+  background: #533b78;
+  font-family: Arial, sans-serif;
 }
 html,body,.sections{
-    height: 100%;     
-  }
+  height: 100%;     
+}
 
 h2{
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
 } 
 
+/*================================Alinhamento das Sections e Conteudos==================================*/
+
 .sections{
   display: table;
   width: 100%;
   padding-top: 80px; 
-  padding-bottom: 50px;  
+  padding-bottom: 50px;
+  transition: h 1s;  
 }
 
 .salign{
@@ -24,9 +27,7 @@ h2{
 }
 
 
-
-
-/*IDs Sections*/
+/*===========================================IDs Sections===============================================*/
 
 #sobre{
 	background: linear-gradient(to right, #3b2a55, #533b78, #3b2a55); 
@@ -62,15 +63,17 @@ h2{
 	font-size: 1em;
 }
 
-/*Classes*/
+/*=================================================Classes==============================================*/
+
 .avatar{
   margin-top: 50px;
 }
 
-.card {
+.card{
   margin: 0 auto;
   float: none; 
   margin-bottom: 20px; 
+  width: 15rem;  
 }
 
 .jobscard{
@@ -83,15 +86,22 @@ h2{
 }
 
 .logocolor{
-	color: grey;
+	color: white;
+  opacity: 0.5;
 }
 
 .ficons{
   opacity: 0.9;
 }
 
+.clinks{
+  width: 80px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
 
-/*Customize navbar*/
+
+/*============================================Customizar navbar===========================================*/
 
 .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.1);
@@ -102,24 +112,12 @@ h2{
 }
 
 .navbar-custom {
-  background-color: #000000;
-  opacity: 0.6;
-  font-family: Arial, Helvetica, sans-serif;  
+  background-color: rgba(0,0,0,0.6);   
 }
-
-/* change the brand and nav text color */
 
 .navbar-custom .navbar-brand {
   color: white;
   font-size: 30px;
-}
-
-.navbar-custom .navbar-brand:hover {
-  color: white;
-}
-
-.navbar-custom .navbar-brand:visited {
-  color: white;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -133,15 +131,8 @@ h2{
   text-shadow: 0px 0px 10px white;
 }
 
-.navbar-custom .navbar-nav .nav-link:active {
-  color: white;  
-}
 
-.navbar-custom .navbar-nav .nav-link:visited {
-  color: white;  
-}
-
-/*Animações*/
+/*================================================Animações==============================================*/
 
 @-webkit-keyframes movimento-lr {
    from {
@@ -198,22 +189,24 @@ h2{
    position: relative; 
 }
 
-/*Fonts and imagens adjusts*/
+/*==========================================Fontes e imagens==============================================*/
 
 /*Telas grandes*/
-
-@media only screen and (min-width : 1380px)
-{ p{
-    font-size: 1.4em;    
-  }
+@media only screen and (min-width : 1380px){ 
   h1{
-    font-size: 3.3em;   
+    font-size: 3em;   
   }
   h2{
-    font-size: 2.3em;    
+    font-size: 2em;    
   }
   h3{
-    font-size: 1.7em;
+    font-size: 1.6em;
+  }
+  h4{
+    font-size: 1.5em;
+  }
+  p{
+    font-size: 1.2em;    
   }
 
   .ficons{
@@ -235,20 +228,21 @@ h2{
 }
 
 /*telas mais comuns*/
-@media only screen and (min-width : 1008px) and (max-width : 1379px)
-{ p{
-    font-size: 1.1em;    
-  }
+@media only screen and (min-width : 1008px) and (max-width : 1379px){
   h1{
-    font-size: 3em;   
+    font-size: 2.9em;   
   }
   h2{
-    font-size: 2em;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
+    font-size: 1.9em;
   }
   h3{
-    font-size: 1.4;
+    font-size: 1.5em;
+  }
+  h4{
+    font-size: 1.4em;
+  }
+  p{
+    font-size: 1.1em;    
   }
 
   .ficons{
@@ -257,7 +251,7 @@ h2{
   }
 
   .avatar{
-	width: 400px;	
+    width: 400px;	
 	}
 
   .sicons{
@@ -270,20 +264,21 @@ h2{
 }
 
 /*tablet size*/
-@media only screen and (min-width : 770px) and (max-width : 1007px)
-{ p{
-    font-size: 1em;    
-  }
+@media only screen and (min-width : 770px) and (max-width : 1007px){
   h1{
     font-size: 2.5em;   
   }
   h2{
     font-size: 1.5em;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
   }
   h3{
     font-size: 1.2em;
+  }
+  h4{
+    font-size: 1.1em;
+  }
+  p{
+    font-size: 1em;    
   }
 
   
@@ -293,7 +288,7 @@ h2{
   }
 
   .avatar{
-	width: 400px;	
+    width: 400px;	
 	}
 
   .sicons{
@@ -306,24 +301,21 @@ h2{
 }
 
 /*small tablet size*/
-@media only screen and (min-width : 641px) and (max-width : 769px)
-{ p{
-    font-size: 1em;    
-  }
+@media only screen and (min-width : 641px) and (max-width : 769px){
   h1{
-    font-size: 2.2em;   
+    font-size: 2.4em;   
   }
   h2{
-    font-size: 1.2em;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
+    font-size: 1.4em;
   }
   h3{
     font-size: 1.2em;
   }
-
-  .aavatar{
-  	padding-top: 20px;
+  h4{
+    font-size: 1.1em;
+  }
+  p{
+    font-size: 1em;    
   }
 
   .ficons{
@@ -333,11 +325,11 @@ h2{
   }
 
   .avatar{
-	width: 200px;	
+    width: 200px;	
 	}
 
   .sicons{
-  	margin-top: 15px;
+    margin-top: 15px;
   	margin-bottom: 15px;
   	margin-left: 15px;
   	margin-right: 20px;
@@ -346,20 +338,21 @@ h2{
 }
 
 /*smart size*/
-@media only screen and (max-width : 640px)
-{ p{
-    font-size: 1em;    
-  }
+@media only screen and (max-width : 640px){
   h1{
-    font-size: 2.2em;   
+    font-size: 2.15em;   
   }
   h2{
-    font-size: 1.2em;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
+    font-size: 1.25em;
   }
   h3{
-    font-size: 1.2em;
+    font-size: 1.1em;
+  }
+  h4{
+    font-size: 1.05em;
+  }
+  p{
+    font-size: 0.95em;    
   }
  
 
@@ -372,10 +365,6 @@ h2{
   	font-size: 20px;
 	}
 
-  .aavatar{
-  	padding-top: 20px;
-  }
-
   .ficons{
     height: 60px;
     margin-top: 40px;
@@ -383,7 +372,7 @@ h2{
   }
 
   .avatar{
-	width: 200px;	
+    width: 200px;	
 	}
 
   .sicons{
@@ -395,6 +384,6 @@ h2{
 	}
 
   .shadowtext{
-  text-shadow: 1px 1px 1px black;  
+    text-shadow: 1px 1px 1px black;  
   }
 }
