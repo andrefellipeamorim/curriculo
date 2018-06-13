@@ -2,6 +2,10 @@ body{
   background: #533b78;
   font-family: Arial, sans-serif;
 }
+
+h1{
+  font-family: Arial, sans-serif;
+}
 html,body,.sections{
   height: 100%;     
 }
