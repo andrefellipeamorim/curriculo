@@ -1,5 +1,5 @@
 body{
-  background: #533b78;
+  background: url("../img/fundo1.png") fixed no-repeat black;
   font-family: Arial, sans-serif;
 }
 
@@ -7,7 +7,7 @@ h1{
   font-family: Arial, sans-serif;
 }
 html,body,.sections{
-  height: 100%;  
+  
 }
 
 h2{
@@ -19,10 +19,10 @@ h2{
 
 .sections{
   display: table;
-  width: 100%;
+  width: 100%;  
   padding-top: 100px; 
   padding-bottom: 50px;
-  transition: h 1s;  
+  transition: 1s;  
 }
 
 .salign{
@@ -34,33 +34,34 @@ h2{
 /*===========================================IDs Sections===============================================*/
 
 #sobre{
-	background: linear-gradient(to right, #3b2a55, #533b78, #3b2a55); 
-	color: white; 
+  background: rgba(0,0,0,0.4);
+  color: white; 
 }
 
+
 #formacao{
-	background: linear-gradient(to right, #ffff80, #ffffb3, #ffff80); 
-	color: #000000;
+	background: rgba(0,0,0,0.9);
+	color: white;
 }
 
 #skills{
-	background: linear-gradient(to right, #1fc7a5, #6EE8D0, #1fc7a5); 
-	color: black;
+	background: rgba(0,0,0,0.4); 
+	color: white;
 }
 
 #jobs{
-	background: linear-gradient(to right, #e07638, #E89A6E, #e07638); 
-	color: #000000;  
+	background: rgba(0,0,0,0.9);
+	color: white;  
 }
 
 #contato{
-	background: linear-gradient(to right, #33adff, #80ccff, #33adff); 
-	color: #000000;
+	background: rgba(0,0,0,0.4);
+	color: white;
 }
 
 #footer{
-	background: white; 
-	color: black;
+	background: rgba(0,0,0,0.9);; 
+	color: orange;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	text-align: center;
@@ -78,7 +79,8 @@ h2{
   margin: 0 auto;
   float: none; 
   margin-bottom: 20px; 
-  width: 15rem;  
+  width: 15rem; 
+  color: black; 
 }
 
 .jobscard{
@@ -91,7 +93,7 @@ h2{
 }
 
 .logocolor{
-	color: white;
+	color: orange;
   opacity: 0.5;
 }
 
@@ -133,7 +135,7 @@ h2{
 
 .navbar-custom .navbar-nav .nav-link:hover {
   color: white;
-  text-shadow: 0px 0px 10px white;
+  text-shadow: 0px 0px 10px orange;
 }
 
 
