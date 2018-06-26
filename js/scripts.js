@@ -21,3 +21,7 @@ function swingItemD() {
 function stopSwingD() {
 	document.getElementById('diploma').className = "img-responsive ficons";	
 }
+
+$('.formacao').scroll(function(){
+	document.getElementByClass('formacao').className += "row formacao opacidade";
+});

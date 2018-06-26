@@ -191,10 +191,11 @@ h2{
 
 .opacidade {
    -webkit-animation-name: opacidade;
-   -webkit-animation-duration: 1s;
+   -webkit-animation-duration: 2s;
    -webkit-animation-iteration-count: 1;
    position: relative; 
 }
+
 
 /*==========================================Fontes e imagens==============================================*/
 
