@@ -1,6 +1,10 @@
 body{
   background: url("../img/fundo1.png") fixed no-repeat center black;
   font-family: Arial, sans-serif;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1{
@@ -412,6 +416,9 @@ nav {
     font-size: 0.95em;    
   }
  
+  body{
+    background-attachment: none;
+  }
 
   .navbar-toggler-icon{
   	width: 20px;
