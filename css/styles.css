@@ -120,6 +120,9 @@ hr{
 
 /*============================================Customizar navbar===========================================*/
 
+.navbar, .navbar-brand, .nav-link, .navbar-nav{
+  transition: all 0.5s ease;
+}
 
 .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.1);
@@ -129,51 +132,74 @@ hr{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.navbar-custom {
-  background-color: rgba(0,0,0,0.5);       
+nav {
+  background-color: rgba(0,0,0,0.5);    
 }
 
-.navbar-custom .navbar-brand {
+.navbar-brand {
   color: white;
-  font-size: 30px;
+  font-size: 30px;  
 }
 
-.navbar-custom .navbar-nav .nav-link {
+.nav-link {
   color: white;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 20px; 
 }
 
-.navbar-custom .navbar-nav .nav-link:hover {
+.nav-link:hover {
   color: white;
   text-shadow: 0px 0px 10px orange;
 }
 
 /*NavBar Effect*/
 
-.navbar-custom2 {
-  background-color: rgba(0,0,0,0.9);
-  height: 30px; 
-      
+.shrink{
+  background-color: rgba(0,0,0,0.2); 
+  min-height: 10px;  
+  padding-top: 0px;
+  padding-bottom: 0px;       
 }
 
-.navbar-custom2 .navbar-brand {
+.shrink .navbar-brand {
   color: white;
   font-size: 16px;
-  margin-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;  
 }
 
-.navbar-custom2 .navbar-nav .nav-link {
+.shrink .nav-link {
   color: white;
   margin-left: 10px;
-  font-size: 14px;
+  font-size: 14px; 
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-.navbar-custom2 .navbar-nav .nav-link:hover {
+.shrink .nav-link:hover {
   color: white;
   text-shadow: 0px 0px 10px orange;
   font-size: 20px; 
 }
+
+.shrink .navbar-toggler-icon{
+  height: 15px;
+  position: relative;
+  bottom: 4px; 
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.shrink .navbar-toggler{
+  height: 18px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+
+
+
 
 
 

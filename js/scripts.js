@@ -35,10 +35,9 @@ $(document).ready(function(){
 
 $(window).scroll(function() {
   if ($(document).scrollTop() > 50) {
-    $('nav').addClass('navbar-custom2');
-    $('nav').removeClass('navbar-custom');
+    $('nav').addClass('shrink');   
   } else {
-    $('nav').removeClass('navbar-custom2');
-    $('nav').addClass('navbar-custom');
+    $('nav').removeClass('shrink');
+    
   }
 });
