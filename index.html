@@ -6,18 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Meus Scripts Js -->
-
-    <script src="js/scripts.js"></script>
-
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
     <!--CSS styles-->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!--Animate-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--WOW.js-->
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> 
+
+    <!-- Meus Scripts Js -->
+    <script src="js/scripts.js"></script>    
 
     <title>André Amorim - Web Developer, Curriculum & Portfolio</title>
     <link rel="icon" href="img/favicon.png">    
@@ -52,8 +60,8 @@
           <div class="row">
               <div class="col-sm-12 col-md-6">
                 <h1 class="shadowtext animlr">Sobre</h1>
-                <hr class="white">
-                <h2 class="shadowtext opacidade"">Olá, me chamo André Fellipe Amorim, sou blumenauense, tenho 30 anos, casado, pai e um apaixonado por cultura nerd, games, música e tecnologia.</h2><hr class="white">
+                <hr>
+                <h2 class="shadowtext opacidade"">Olá, me chamo André Fellipe Amorim, sou blumenauense, tenho 30 anos, casado, pai e um apaixonado por cultura nerd, games, música e tecnologia.</h2><hr>
 
                 <p class="opacidade">Trabalhei durante toda minha trajetória profissional em uma empresa renomada de controle ponto e acesso, atuando no suporte técnico e gerência. Participo ativamente nas diretrizes estratégicas da empresa bem como na interlocução da direção com os clientes e colaboradores. Programador por paixão, estou em busca de uma mudança profissional que me permita atuar como tal, ter contato com novas metodologias e expandir meus horizontes.</p>
               </div>
@@ -69,9 +77,9 @@
     <!--Formação area-->
 
     <section id="formacao" class="sections">
-      <div class="salign">
+      <div class="salign  wow bounceInUp">
         <div class="container">
-          <div class="row formacao">
+          <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-4" style="text-align: center">
               <img id="chapeu" src="img/chapeu.png" class="img-responsive ficons" onmouseout="stopSwingC()" onmouseover="swingItemC()">
               <h1>Formação</h1><hr>
@@ -102,28 +110,28 @@
     <!--Skills area-->
 
     <section id="skills" class="sections">
-      <div class="salign">
+      <div class="salign  wow bounceInUp">
         <div class="container">
           <div class="row">
             <div class="col-sm-12" style="text-align: center">
-              <h1>Skills</strong></h1><hr class="white">           
+              <h1>Skills</strong></h1><hr>           
             </div>
             <div class="col-sm-12" style="text-align: center;">
-              <a href="#"><img src="img/logos/c++.png" class="img-fluid sicons"></a>            
+              <!--<a href="#"><img src="img/logos/c++.png" class="img-fluid sicons"></a>-->            
               <a href="#"><img src="img/logos/css3.png" class="img-fluid sicons"></a>
               <a href="#"><img src="img/logos/html5.png" class="img-fluid sicons"></a>
               <a href="#"><img src="img/logos/bootstrap.png" class="img-fluid sicons"></a>
               <!--<a href="#"><img src="img/logos/c-sharp.png" class="img-fluid sicons"></a>-->
-              <a href="#"><img src="img/logos/java.png" class="img-fluid sicons"></a>
+              <!--<a href="#"><img src="img/logos/java.png" class="img-fluid sicons"></a>-->
               <a href="#"><img src="img/logos/jQuery.png" class="img-fluid sicons"></a>
               <a href="#"><img src="img/logos/js.png" class="img-fluid sicons"></a>
-              <a href="#"><img src="img/logos/my-sql.png" class="img-fluid sicons"></a>
-              <a href="#"><img src="img/logos/php.png" class="img-fluid sicons"></a>
+              <!--<a href="#"><img src="img/logos/my-sql.png" class="img-fluid sicons"></a>-->
+              <!--<a href="#"><img src="img/logos/php.png" class="img-fluid sicons"></a>-->
               <a href="#"><img src="img/logos/wordpress.png" class="img-fluid sicons"></a>
-              <a href="#"><img src="img/logos/scrum.png" class="img-fluid sicons"></a>   
-              <a href="#"><img src="img/logos/git.png" class="img-fluid sicons"></a>
+              <!--<a href="#"><img src="img/logos/scrum.png" class="img-fluid sicons"></a>-->   
+              <!--<a href="#"><img src="img/logos/git.png" class="img-fluid sicons"></a>-->
               <a href="#"><img src="img/logos/adwords.png" class="img-fluid sicons"></a>
-              <a href="#"><img src="img/logos/angular.png" class="img-fluid sicons"></a>
+              <!--<a href="#"><img src="img/logos/angular.png" class="img-fluid sicons"></a>-->
             </div>
           </div>
         </div>
@@ -133,12 +141,12 @@
     <!--jobs area-->
 
     <section id="jobs" class="sections">
-      <div class="salign">
+      <div class="salign wow bounceInUp">
         <div class="container">
           <div class="row">
             <div class="col-sm-12" style="text-align: center;">
               <h1>Jobs</h1>
-              <hr class="white"><br>            
+              <hr><br>            
             </div>
           </div>
           <div class="row" style="text-align: center;">  
@@ -191,12 +199,11 @@
     <!--contato area-->
 
     <section id="contato" class="sections">
-      <div class="salign">
+      <div class="salign wow bounceInUp">
         <div class="container">
           <div class="row">          
             <div class="col-sm-12" style="text-align: left;">
-              <h1>Contato</h1>
-              <hr>            
+              <h1>Contato</h1>                          
             </div>
             
             <div class="col-sm-12 col-md-6">
@@ -231,16 +238,9 @@
 
 
 
-    <!-- Optional JavaScript -->
-      
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>   
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   </body>
 </html>

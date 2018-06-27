@@ -1,5 +1,7 @@
+/*JS puro*/
+
 function swingItemC() {
-	document.getElementById('chapeu').className += "img-responsive ficons animated swing infinite";
+	document.getElementById('chapeu').className += " animated jello infinite";
 }
 
 function stopSwingC() {
@@ -7,7 +9,7 @@ function stopSwingC() {
 }
 
 function swingItemM() {
-	document.getElementById('mala').className += "img-responsive ficons animated swing infinite";
+	document.getElementById('mala').className += " animated jello infinite";
 }
 
 function stopSwingM() {
@@ -15,13 +17,28 @@ function stopSwingM() {
 }
 
 function swingItemD() {
-	document.getElementById('diploma').className += "img-responsive ficons animated swing infinite";
+	document.getElementById('diploma').className += " animated jello infinite";
 }
 
 function stopSwingD() {
 	document.getElementById('diploma').className = "img-responsive ficons";	
 }
 
-$('.formacao').scroll(function(){
-	document.getElementByClass('formacao').className += "row formacao opacidade";
+/*Jquery*/
+
+$(document).ready(function(){
+	$('.formacao').mouseover(function(){
+		
+		lert('funciona')
+	});
+});
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('navbar-custom2');
+    $('nav').removeClass('navbar-custom');
+  } else {
+    $('nav').removeClass('navbar-custom2');
+    $('nav').addClass('navbar-custom');
+  }
 });
